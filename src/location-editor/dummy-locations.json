@@ -1,0 +1,296 @@
+{
+  "root": {
+      "id": "root",
+      "value": {
+      "id": "root",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "1": {
+      "id": "1",
+      "value": {
+      "id": "1",
+      "label": "Station",
+      "name": "Knapford",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-0",
+      "1-1"
+    ]
+  },
+  "2": {
+      "id": "2",
+      "value": {
+      "id": "2",
+      "label": "Station",
+      "name": "Vicarstown Vent Shaft",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "2-0",
+      "2-1"
+    ]
+  },
+  "3": {
+      "id": "3",
+      "value": {
+      "id": "3",
+      "label": "Station",
+      "name": "The Depot",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "3-0",
+      "3-1"
+    ]
+  },
+  "4": {
+      "id": "4",
+      "value": {
+      "id": "4",
+      "label": "Station",
+      "name": "Systemwide",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-0": {
+      "id": "1-0",
+      "value": {
+      "id": "1-0",
+      "label": "Level",
+      "name": "Track Level",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-0-0",
+      "1-0-1"
+    ]
+  },
+  "1-0-0": {
+      "id": "1-0-0",
+      "value": {
+      "id": "1-0-0",
+      "label": "Area",
+      "name": "Back of House",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-0-0-0",
+      "1-0-0-1"
+    ]
+  },
+  "1-0-0-0": {
+      "id": "1-0-0-0",
+      "value": {
+      "id": "1-0-0-0",
+      "label": "Room",
+      "name": "Escalator Machine Room 1",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-0-0-1": {
+      "id": "1-0-0-1",
+      "value": {
+      "id": "1-0-0-1",
+      "label": "Room",
+      "name": "Boiler Room",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-0-1": {
+      "id": "1-0-1",
+      "value": {
+      "id": "1-0-1",
+      "label": "Area",
+      "name": "Front of House",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-0-1-0"
+    ]
+  },
+  "1-0-1-0": {
+      "id": "1-0-1-0",
+      "value": {
+      "id": "1-0-1-0",
+      "label": "Room",
+      "name": "Escalator Machine Room 2",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1": {
+      "id": "1-1",
+      "value": {
+      "id": "1-1",
+      "label": "Level",
+      "name": "Concourse Level",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-1-0",
+      "1-1-1",
+      "1-1-2"
+    ]
+  },
+  "1-1-0": {
+      "id": "1-1-0",
+      "value": {
+      "id": "1-1-0",
+      "label": "Area",
+      "name": "East",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-1-0-0",
+      "1-1-0-1"
+    ]
+  },
+  "1-1-0-0": {
+      "id": "1-1-0-0",
+      "value": {
+      "id": "1-1-0-0",
+      "label": "Room",
+      "name": "Lift Lobby 1",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-0-1": {
+      "id": "1-1-0-1",
+      "value": {
+      "id": "1-1-0-1",
+      "label": "Room",
+      "name": "Escalator 2",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-1": {
+      "id": "1-1-1",
+      "value": {
+      "id": "1-1-1",
+      "label": "Area",
+      "name": "West",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-1-1-0",
+      "1-1-1-1",
+      "1-1-1-2"
+    ]
+  },
+  "1-1-1-0": {
+      "id": "1-1-1-0",
+      "value": {
+      "id": "1-1-1-0",
+      "label": "Room",
+      "name": "Lift Lobby 3",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-1-1": {
+      "id": "1-1-1-1",
+      "value": {
+      "id": "1-1-1-1",
+      "label": "Room",
+      "name": "Escalator 3",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-1-2": {
+      "id": "1-1-1-2",
+      "value": {
+      "id": "1-1-1-2",
+      "label": "Room",
+      "name": "Ticket Office",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-2": {
+      "id": "1-1-2",
+      "value": {
+      "id": "1-1-2",
+      "label": "Area",
+      "name": "Main Concourse",
+      "propertiesAndValues": {}
+    },
+    "children": [
+      "1-1-2-0",
+      "1-1-2-1"
+    ]
+  },
+  "1-1-2-0": {
+      "id": "1-1-2-0",
+      "value": {
+      "id": "1-1-2-0",
+      "label": "Room",
+      "name": "Station Control Room",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "1-1-2-1": {
+      "id": "1-1-2-1",
+      "value": {
+      "id": "1-1-2-1",
+      "label": "Room",
+      "name": "Circulation Area 1",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "2-0": {
+      "id": "2-0",
+      "value": {
+      "id": "2-0",
+      "label": "Level",
+      "name": "Track Level",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "2-1": {
+      "id": "2-1",
+      "value": {
+      "id": "2-1",
+      "label": "Level",
+      "name": "Basement 03",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "3-0": {
+      "id": "3-0",
+      "value": {
+      "id": "3-0",
+      "label": "Area",
+      "name": "Shunting Yard",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  },
+  "3-1": {
+      "id": "3-1",
+      "value": {
+      "id": "3-1",
+      "label": "Area",
+      "name": "Wagon Maintenance",
+      "propertiesAndValues": {}
+    },
+    "children": []
+  }
+}

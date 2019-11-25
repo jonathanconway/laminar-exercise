@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.21",
-    "@types/node": "12.12.0",
-    "@types/react": "16.9.11",
-    "@types/react-dom": "16.9.3",
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.32",
+    "material-table": "^1.54.1",
     "react": "^16.11.0",
+    "react-dnd": "^9.4.0",
+    "react-dnd-html5-backend": "^9.4.0",
     "react-dom": "^16.11.0",
+    "react-redux": "^7.1.1",
     "react-scripts": "3.2.0",
+    "shortid": "^2.2.15",
+    "styled-components": "^4.4.0",
     "typescript": "3.6.4"
   },
   "scripts": {
@@ -32,5 +37,29 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "24.0.21",
+    "@types/node": "12.12.0",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "@types/react-redux": "^7.1.5",
+    "@types/shortid": "^0.0.29",
+    "@types/styled-components": "^4.1.20",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^dnd-core$": "dnd-core/dist/cjs",
+      "^react-dnd$": "react-dnd/dist/cjs",
+      "^react-dnd-html5-backend$": "react-dnd-html5-backend/dist/cjs",
+      "^react-dnd-touch-backend$": "react-dnd-touch-backend/dist/cjs",
+      "^react-dnd-test-backend$": "react-dnd-test-backend/dist/cjs",
+      "^react-dnd-test-utils$": "react-dnd-test-utils/dist/cjs"
+    }
   }
 }

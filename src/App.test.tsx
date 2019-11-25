@@ -1,9 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import { mount } from "enzyme";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+import { App } from "./App";
+import { withAllProviders } from "./testUtils";
+import { LocationEditor } from "./location-editor/LocationEditor";
+
+const renderAndMountApp = () => mount(withAllProviders(<App />));
+
+describe("<App />", () => {
+  it("can render", () => {
+    renderAndMountApp();
+  });
+
+  it("renders LocationEditor", () => {
+    const wrapper = renderAndMountApp();
+
+    wrapper.find(LocationEditor);
+  });
 });
+
