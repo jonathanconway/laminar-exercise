@@ -267,10 +267,14 @@ const reorderLocation = (state: LocationEditorState, action: ReorderLocationActi
 const deleteLocation = (state: LocationEditorState, action: DeleteLocationAction) : LocationEditorState => {
   const removeLocationFromTreeMapAndChildren = (locations: LocationTreeModel, id: string) => {
     const location = locations[id];
+
+    if (!location) {
+      return locations;
+    }
   
     // Remove the location's children first.
     if (location.children.length > 0) {
-      for (const childId in location.children) {
+      for (const childId of location.children) {
         locations = removeLocationFromTreeMapAndChildren(locations, childId);
       }
     }
